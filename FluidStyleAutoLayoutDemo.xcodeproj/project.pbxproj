@@ -12,7 +12,7 @@
 		8B443A741E1508920009D804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B443A721E1508920009D804 /* Main.storyboard */; };
 		8B443A761E1508920009D804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B443A751E1508920009D804 /* Assets.xcassets */; };
 		8B443A791E1508920009D804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B443A771E1508920009D804 /* LaunchScreen.storyboard */; };
-		8B443A811E150C550009D804 /* UIView+FluidStyleAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B443A801E150C550009D804 /* UIView+FluidStyleAutoLayout.swift */; };
+		8B443A811E150C550009D804 /* FluidStyleAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B443A801E150C550009D804 /* FluidStyleAutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		8B443A751E1508920009D804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B443A781E1508920009D804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B443A7A1E1508920009D804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B443A801E150C550009D804 /* UIView+FluidStyleAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FluidStyleAutoLayout.swift"; sourceTree = "<group>"; };
+		8B443A801E150C550009D804 /* FluidStyleAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidStyleAutoLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				8B443A6E1E1508920009D804 /* AppDelegate.swift */,
 				8B443A701E1508920009D804 /* ViewController.swift */,
-				8B443A801E150C550009D804 /* UIView+FluidStyleAutoLayout.swift */,
+				8B443A801E150C550009D804 /* FluidStyleAutoLayout.swift */,
 				8B443A721E1508920009D804 /* Main.storyboard */,
 				8B443A751E1508920009D804 /* Assets.xcassets */,
 				8B443A771E1508920009D804 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			files = (
 				8B443A711E1508920009D804 /* ViewController.swift in Sources */,
 				8B443A6F1E1508920009D804 /* AppDelegate.swift in Sources */,
-				8B443A811E150C550009D804 /* UIView+FluidStyleAutoLayout.swift in Sources */,
+				8B443A811E150C550009D804 /* FluidStyleAutoLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
